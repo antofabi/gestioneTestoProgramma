@@ -62,7 +62,7 @@ void parole(char *flname,int dimBuff,int *cont)
         lung= strlen(buff);
         for(int i=0;i<lung;i++)
         {
-            if(buff[i]==32)
+            if(buff[i]==' ')
                 *cont = *cont + 1;
 
         }
