@@ -38,7 +38,7 @@ void contaCaratteriSenzaSpazi(char *flname,int dimBuff,int *contCar)
         lung= strlen(buff);
         for(int i = 0; i<lung;i++)
         {
-            if(buff[i]>=33 && buff[i]<=126)
+            if(buff[i]>='!' && buff[i]<='~')
                 *contCar = *contCar +1;
         }
     }
