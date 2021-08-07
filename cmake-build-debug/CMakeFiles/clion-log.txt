@@ -1,4 +1,4 @@
-/snap/clion/162/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/bodhi/CLionProjects/gestioneTestoProgramma
+/home/bodhi/Downloads/clion-2020.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/bodhi/CLionProjects/gestioneTestoProgramma
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/bodhi/CLionProjects/gestioneTestoProgramma/cmake-build-debug

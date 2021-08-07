@@ -7,3 +7,4 @@ void contaCaratteri(char *flname,int dimBuff,int *contCar);
 void contaCaratteriSenzaSpazi(char *flname,int dimBuff,int *contCar);
 void parole(char *flname,int dimBuff,int *cont);
 void frasi(char *flname,int dimBuff,int *cont);
+void contaParagrafi(char *flname,int dimBuff,int *cont);

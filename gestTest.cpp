@@ -93,6 +93,21 @@ void frasi(char *flname,int dimBuff,int *cont)
                 *cont = *cont + 1;
         }
     }
+}
 
+void contaParagrafi(char *flname,int dimBuff,int *cont)
+{
+    *cont = 0;
+    FILE  *fp;
+    char buff[dimBuff];
+    if((fp=fopen(flname,"r"))== nullptr){cout<<"Errore Lettura";exit(1);}
+
+    while((fgets(buff,dimBuff,fp))!= nullptr)
+    {
+        if(buff[0]=='\n')
+        {
+            *cont = *cont + 1;
+        }
+    }
 
 }
